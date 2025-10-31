@@ -6,6 +6,6 @@ public class balancedBrackets {
         String exp = "[{{(a+b)+(c+d)})]";
 
         Stack<Character> stc = new Stack<>();
-        
+        int num = 34;
     }
 }
