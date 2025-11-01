@@ -1,6 +1,6 @@
 public class thirdLargestNumber {
     public static void main(String[] args) {
-        int[] arr = { 4, 45, 6, 67, 34, 22, 1 ,60};
+        int[] arr = { 4, 45, 6, 67, 34, 22, 1 };
 
         // bubble sort
         for (int j = 0; j < arr.length; j++) {
