@@ -23,7 +23,7 @@ public class stacks {
      strstacky.push("hello i am shivam");
      System.out.println(strstacky.peek());
      strstacky.pop(); // will remove the whole string
-     System.out.println(strstacky.isEmpty());
+     System.out.println(strstacky.isEmpty()); //to check ist empty or not
 
 
     } 
