@@ -13,6 +13,7 @@ public class nextGreaterElement {
             while (!stc.isEmpty() && arr[i]>=stc.peek()  ) {
                 stc.pop();
             }
+            
             if (stc.isEmpty()) {
                 System.out.println(-1);
             }else{
