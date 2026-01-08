@@ -3,7 +3,8 @@ import java.util.Stack;
 public class balancedBrackets {
 
     public static void main(String[] args) {
-        String exp1 = "()[]{[]}";
+        // String exp1 = "()[]{[]}";
+        String exp1 = "((";
         Stack<Character> stk = new Stack<>();
         
         for (int i = 0; i < exp1.length(); i++) {
@@ -36,7 +37,11 @@ public class balancedBrackets {
                 }
             }
         }
-        System.out.println(true);
+        if (stk.isEmpty()) {
+            System.out.println(true);
+        }else{
+            System.out.println(false);
+        }
             
     }
 }
